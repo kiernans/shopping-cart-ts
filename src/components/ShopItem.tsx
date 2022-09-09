@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { useShoppingCart } from "../context/ShoppingCartContext";
+import "../styles/ShopItem.css";
 
 interface ShopItemProps {
   id: number;
@@ -12,10 +13,6 @@ interface ShopItemProps {
 const ShopItem = ({ id, image, name, price }: ShopItemProps) => {
   const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
   const quantity = getItemQuantity(id);
-
-  useEffect(() => {
-    console.log(quantity);
-  }, [quantity]);
 
   return (
     <>

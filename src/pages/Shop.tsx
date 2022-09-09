@@ -1,6 +1,7 @@
 import React from "react";
 import ShopItem from "../components/ShopItem";
 import storeItems from "../data/items.json";
+import "../styles/Shop.css";
 
 const Shop = () => {
   return (

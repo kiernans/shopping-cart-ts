@@ -26,9 +26,7 @@ export function ShoppingCartProvider({ children }: ShoppingCartProviderProps) {
   const [cartItems, setCartItems] = useState<CartItem[]>([]);
 
   const getItemQuantity = (id: number) => {
-    const tempItem = cartItems.find((item) => item.id === id);
-    if (tempItem !== undefined) return tempItem.quantity;
-    return 0;
+    return cartItems.find((item) => item.id === id)?.quantity ?? 0;
   };
 
   const increaseCartQuantity = (id: number) => {

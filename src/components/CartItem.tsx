@@ -1,6 +1,7 @@
 import React from "react";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 import { formatCurrency } from "../utilities/formatCurrency";
+import "../styles/CartItem.css";
 
 interface CartItemProps {
   id: number;

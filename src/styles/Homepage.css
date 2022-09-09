@@ -10,7 +10,7 @@
 }
 
 .bg-home {
-  background-image: url(../assets/jason-ortego-buF62ewDLcQ-unsplash.jpg);
+  background-image: url(/images/jason-ortego-buF62ewDLcQ-unsplash.jpg);
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
   background-position: center center;

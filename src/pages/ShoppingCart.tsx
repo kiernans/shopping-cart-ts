@@ -1,6 +1,7 @@
 import React from "react";
 import CartItem from "../components/CartItem";
 import shopItems from "../data/items.json";
+import "../styles/ShoppingCart.css";
 
 const ShoppingCart = () => {
   const chosenItems = shopItems.filter((item) => item);
