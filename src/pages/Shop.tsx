@@ -12,7 +12,6 @@ const Shop = () => {
               <ShopItem
                 name={item.name}
                 id={item.id}
-                qty={item.qty}
                 price={item.price}
                 image={item.image}
               />
