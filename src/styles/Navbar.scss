@@ -1,0 +1,28 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 15px;
+}
+
+.nav-items {
+    display: flex;
+    gap: 40px; 
+    position: relative;
+    right: 75px;
+}
+
+.nav-items a:hover {
+    background: #ddd;
+    color: black;
+}
+
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}

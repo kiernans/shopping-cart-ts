@@ -1,0 +1,13 @@
+.Cart {
+  display: flex;
+  flex-direction: column;
+  margin-top: 90px;
+  align-items: center;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
+  width: 90vw;
+  padding: 15px;
+}/*# sourceMappingURL=ShoppingCart.css.map */

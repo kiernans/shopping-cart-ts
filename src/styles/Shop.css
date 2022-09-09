@@ -1,0 +1,17 @@
+body,
+html {
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.Shop {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  gap: 80px;
+  justify-content: center;
+}/*# sourceMappingURL=Shop.css.map */
