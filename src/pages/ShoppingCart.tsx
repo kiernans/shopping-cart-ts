@@ -3,7 +3,7 @@ import CartItem from "../components/CartItem";
 import shopItems from "../data/items.json";
 
 const ShoppingCart = () => {
-  const chosenItems = shopItems.filter((item) => item.qty > 0);
+  const chosenItems = shopItems.filter((item) => item);
 
   return (
     <>
@@ -11,7 +11,7 @@ const ShoppingCart = () => {
         {chosenItems.length > 0 ? (
           chosenItems.map((item) => {
             return (
-              <div key={item.id} id={item.id} className="CartItem">
+              <div key={item.id} className="CartItem">
                 <CartItem
                   name={item.name}
                   price={item.price}

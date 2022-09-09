@@ -8,7 +8,7 @@ const Shop = () => {
       <div className="Shop">
         {storeItems.map((item) => {
           return (
-            <div key={item.id} id={item.id} className="ShopItem">
+            <div key={item.id} className="ShopItem">
               <ShopItem
                 name={item.name}
                 id={item.id}

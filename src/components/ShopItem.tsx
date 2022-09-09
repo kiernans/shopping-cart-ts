@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { formatCurrency } from "../utilities/formatCurrency";
 import { useShoppingCart } from "../context/ShoppingCartContext";
 
 interface ShopItemProps {
-  id: string;
+  id: number;
   image: string;
   name: string;
   price: number;
@@ -12,17 +12,18 @@ interface ShopItemProps {
 const ShopItem = ({ id, image, name, price }: ShopItemProps) => {
   const { getItemQuantity, increaseCartQuantity } = useShoppingCart();
   const quantity = getItemQuantity(id);
+
+  useEffect(() => {
+    console.log(quantity);
+  }, [quantity]);
+
   return (
     <>
       <img className="item-image" src={image} alt="" />
       <div className="item-title">{name}</div>
       <p>{quantity}</p>
       <div className="item-price">{formatCurrency(price)}</div>
-      <button
-        className="add-item"
-        name={id}
-        onClick={() => increaseCartQuantity(id)}
-      >
+      <button className="add-item" onClick={() => increaseCartQuantity(id)}>
         Add to cart
       </button>
     </>

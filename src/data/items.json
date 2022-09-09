@@ -1,8 +1,8 @@
 [
-    { "id": "1", "name": "A Beautiful Coast", "qty": 0, "price": 1.00, "image": "/images/antoine-beauvillain-qrPqGP-SG8w-unsplash.jpg" },
-        { "id": "2", "name": "A Pretty Lake", "qty": 0, "price": 2.00, "image": "/images/clement-fusil-Fpqx6GGXfXs-unsplash.jpg" },
-        { "id": "3", "name": "A Pier at Night", "qty": 0, "price": 3.00, "image": "/images/james-wheeler-InOgamK2cuY-unsplash.jpg" },
-        { "id": "4", "name": "A Boat on a Lake", "qty": 0, "price": 4.00, "image": "/images/luca-bravo-O453M2Liufs-unsplash.jpg" },
-        { "id": "5", "name": "A Snowy Mountain", "qty": 0, "price": 5.00, "image": "/images/luis-poletti-th4bqV0PQpI-unsplash.jpg" },
-        { "id": "6", "name": "An Autumn Trail", "qty": 0, "price": 6.99, "image": "/images/toni-lluch-JoRoy500nCc-unsplash.jpg" }
+    { "id": 1, "name": "A Beautiful Coast", "price": 1.00, "image": "/images/antoine-beauvillain-qrPqGP-SG8w-unsplash.jpg" },
+        { "id": 2, "name": "A Pretty Lake", "price": 2.00, "image": "/images/clement-fusil-Fpqx6GGXfXs-unsplash.jpg" },
+        { "id": 3, "name": "A Pier at Night", "price": 3.00, "image": "/images/james-wheeler-InOgamK2cuY-unsplash.jpg" },
+        { "id": 4, "name": "A Boat on a Lake", "price": 4.00, "image": "/images/luca-bravo-O453M2Liufs-unsplash.jpg" },
+        { "id": 5, "name": "A Snowy Mountain", "price": 5.00, "image": "/images/luis-poletti-th4bqV0PQpI-unsplash.jpg" },
+        { "id": 6, "name": "An Autumn Trail", "price": 6.99, "image": "/images/toni-lluch-JoRoy500nCc-unsplash.jpg" }
 ]
